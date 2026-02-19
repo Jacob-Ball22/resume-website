@@ -107,7 +107,7 @@ export default function Projects() {
             Want to see more?
           </p>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Jacob-Ball22"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold rounded-xl hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors"

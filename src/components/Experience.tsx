@@ -26,9 +26,6 @@ export default function Experience() {
             Career
           </p>
           <h2 className="section-title">Work Experience</h2>
-          <p className="section-subtitle">
-            My professional journey and the impact I&apos;ve made along the way.
-          </p>
         </div>
 
         {/* Timeline */}
