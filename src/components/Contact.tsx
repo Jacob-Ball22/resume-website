@@ -55,10 +55,21 @@ export default function Contact() {
     if (!validate()) return;
 
     setStatus("submitting");
-    // Simulate form submission (replace with real API call)
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setStatus("success");
-    setForm({ name: "", email: "", subject: "", message: "" });
+    try {
+      const res = await fetch("https://formspree.io/f/xykdowbg", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setStatus("success");
+        setForm({ name: "", email: "", subject: "", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   };
 
   const inputClass = (field: keyof FormData) =>
