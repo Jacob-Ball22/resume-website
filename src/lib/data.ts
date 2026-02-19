@@ -26,6 +26,20 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    id: "exp0",
+    title: "AI Trainer",
+    company: "Handshake",
+    startDate: "Jan 2026",
+    endDate: "Present",
+    location: "Contract",
+    achievements: [
+      "Evaluated and annotated multimodal AI outputs across text, image, audio, and video formats, maintaining strict quality benchmarks within a human-in-the-loop workflow.",
+      "Analyzed AI failure cases, applied image transformations, and annotated objects in images and videos using coordinates and timestamps to improve model accuracy and consistency.",
+      "Developed structured multimodal instructions for video style transfer tasks and provided feedback to support continuous AI learning and optimization.",
+    ],
+    technologies: ["Data Annotation", "Multimodal AI", "Quality Assurance", "Human-in-the-Loop", "Prompt Engineering"],
+  },
+  {
     id: "exp1",
     title: "Security Officer",
     company: "Westchester Country Club",

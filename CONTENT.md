@@ -15,6 +15,13 @@
 
 ## Work Experience
 
+### AI Trainer
+**Handshake** | [Jan 2026 - Present] | [Contract]
+- [Evaluated and annotated multimodal AI outputs across text, image, audio, and video formats, maintaining strict quality benchmarks within a human-in-the-loop workflow.]
+- [Analyzed AI failure cases, applied image transformations, and annotated objects in images and videos using coordinates and timestamps to improve model accuracy and consistency.]
+- [Developed structured multimodal instructions for video style transfer tasks and provided feedback to support continuous AI learning and optimization.]
+- Skills used: [Data Annotation, Multimodal AI, Quality Assurance, Human-in-the-Loop, Prompt Engineering]
+
 ### Security Officer
 **Westchester Country Club** | [May 2024 - Oct 2025] | [Rye, NY]
 - [Ensured safety and security of premises, enhancing operational efficiency by implementing new patrol logging procedures.]
