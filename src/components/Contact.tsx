@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Mail, MapPin, Phone, Linkedin, Github, Send, CheckCircle, AlertCircle } from "lucide-react";
 import { personalInfo } from "@/lib/data";
 
@@ -83,14 +84,26 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
-        <div className="mb-12">
-          <p className="text-blue-600 dark:text-blue-400 font-semibold text-sm uppercase tracking-wider mb-2">
-            Contact
-          </p>
-          <h2 className="section-title">Get In Touch</h2>
-          <p className="section-subtitle">
-            Think I&apos;d be a good fit for a role or have a project in mind? I&apos;d enjoy hearing from you.
-          </p>
+        <div className="mb-12 flex items-start justify-between gap-8">
+          <div>
+            <p className="text-blue-600 dark:text-blue-400 font-semibold text-sm uppercase tracking-wider mb-2">
+              Contact
+            </p>
+            <h2 className="section-title">Get In Touch</h2>
+            <p className="section-subtitle">
+              Think I&apos;d be a good fit for a role or have a project in mind? I&apos;d enjoy hearing from you.
+            </p>
+          </div>
+          <div className="flex-shrink-0 hidden sm:block">
+            <div className="relative w-36 h-36 rounded-xl overflow-hidden border-4 border-white dark:border-gray-800 shadow-lg">
+              <Image
+                src="/profile.jpg"
+                alt="Jacob Ball"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-5 gap-8 lg:gap-12">
