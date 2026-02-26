@@ -89,7 +89,7 @@ export default function Contact() {
           </p>
           <h2 className="section-title">Get In Touch</h2>
           <p className="section-subtitle">
-            Have a project in mind or want to say hello? I&apos;d love to hear from you.
+            Think I&apos;d be a good fit for a role or have a project in mind? I&apos;d enjoy hearing from you.
           </p>
         </div>
 
