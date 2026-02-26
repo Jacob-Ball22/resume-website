@@ -2,7 +2,7 @@
 
 A modern, responsive personal resume website built with Next.js, TypeScript, and Tailwind CSS. This site showcases my background as a Marine Corps veteran, Fordham University student, and aspiring data scientist.
 
-**Live site:** [jacobball.dev](https://jacobball.dev) <!-- update with your actual URL -->
+**Live site:** [jacob-ball.com](https://jacob-ball.com/) 
 
 ---
 
