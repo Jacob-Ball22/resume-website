@@ -5,9 +5,7 @@ import { Github, Linkedin, Mail, ArrowDown, Download } from "lucide-react";
 import { personalInfo } from "@/lib/data";
 
 const titles = [
-  "Data Scientist",
-  "Machine Learning Engineer",
-  "Data Analyst",
+  "Cybersecurity Professional",
 ];
 
 export default function Hero() {
