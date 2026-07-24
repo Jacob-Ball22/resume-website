@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Jacob Ball",
-  title: "Graduate Student & Aspiring Data Scientist",
+  title: "Graduate Student, Cybersecurity",
   tagline: "Turning data into decisions",
   location: "Greenwich, CT, USA",
   email: "jeball22@gmail.com",
@@ -9,7 +9,7 @@ export const personalInfo = {
   github: "https://github.com/Jacob-Ball22",
   portfolio: "",
   summary:
-    "Marine Corps veteran and Fordham University Data Science Graduate student with expertise in Python, scikit-learn, SQL, and machine learning. Experienced in building predictive models, data preprocessing, and network infrastructure, with a background leading mission-critical IT operations for 100+ users. Seeking data science or analytics internship opportunities to further develop skills in predictive analytics and AI-driven insights.",
+    "Marine Corps veteran pursuing an accelerated M.S. in Cybersecurity at Fordham University, with a concentration in artificial intelligence. Focused on building expertise in security fundamentals alongside emerging AI applications for threat detection and analysis, supporting a career path in cybersecurity and AI-driven security analytics. Proficient in Python, SQL, and C++, with hands-on military experience designing and maintaining mission-critical network infrastructure for 200+ users, a foundation that directly informs my cybersecurity focus. Actively seeking internship and full-time opportunities in cybersecurity and AI-driven security analytics.",
   availability: "Open to internship and job opportunities",
 };
 
@@ -61,11 +61,11 @@ export const experiences: Experience[] = [
     endDate: "Jul 2023",
     location: "Okinawa, Japan",
     achievements: [
-      "Designed and maintained local and campus area networks, ensuring 99.999% uptime for over 100 users during critical operations.",
-      "As Platoon Network Chief, spearheaded IT operations for the Balikatan 2023 exercise, deploying LAN infrastructure to support over 200 personnel.",
-      "Improved network efficiency by automating routine administrative tasks, reducing configuration time by 30%.",
+      "Secured and administered classified LAN/WAN infrastructure for 100+ users, enforcing access controls, security protocols, and network hardening procedures to maintain 99.999% uptime during mission-critical operations.",
+      "As Platoon Network Chief, led secure network deployment for the Balikatan 2023 joint military exercise, establishing and hardening communications infrastructure supporting 200+ coalition personnel in a high-stakes operational environment.",
+      "Automated routine security configurations and network administrative tasks using scripted solutions, reducing configuration time by 30% while minimizing human error and attack surface.",
     ],
-    technologies: ["Linux", "IT", "Cybersecurity", "Leadership", "Continuous Improvement"],
+    technologies: ["Network Security", "Linux", "Access Control", "Security Hardening", "Cybersecurity", "Leadership"],
   },
 ];
 
