@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/jakeball/Documents/my-resume-website status)",
+      "Bash(git -C /Users/jakeball/Documents/my-resume-website diff)",
+      "Bash(git -C /Users/jakeball/Documents/my-resume-website restore --staged public/profile.jpg)",
+      "Bash(git -C /Users/jakeball/Documents/my-resume-website add README.md public/profile.jpg CONTENT.md src/lib/data.ts)",
+      "Bash(git -C /Users/jakeball/Documents/my-resume-website add src/components/Contact.tsx src/components/Experience.tsx src/components/Projects.tsx)",
+      "Bash(git -C /Users/jakeball/Documents/my-resume-website commit -m ' *)",
+      "Bash(git -C /Users/jakeball/Documents/my-resume-website push origin main)"
+    ]
+  }
+}
