@@ -105,7 +105,7 @@ export const education: Education[] = [
       "Secure Cyber Networks",
       "Data Comm & Networks",
     ],
-    honors: ["Dean's List 2024–2025"],
+    honors: ["Dean's List 2024–2025", "Magna Cum Laude"],
   },
 ];
 
@@ -157,6 +157,18 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
+    id: "cybersecurity",
+    name: "Cybersecurity",
+    skills: [
+      { name: "Network Security", level: 85 },
+      { name: "Access Control & IAM", level: 80 },
+      { name: "Security Hardening", level: 80 },
+      { name: "Threat Detection & Analysis", level: 70 },
+      { name: "Vulnerability Assessment", level: 65 },
+      { name: "Incident Response", level: 65 },
+    ],
+  },
+  {
     id: "networking",
     name: "Networking & Infrastructure",
     skills: [
@@ -164,8 +176,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "TCP/IP", level: 85 },
       { name: "Network Architecture", level: 80 },
       { name: "Data Communications", level: 80 },
-      { name: "Linux", level: 60 },
-      { name: "Cybersecurity", level: 60 },
+      { name: "Linux", level: 75 },
     ],
   },
   {
@@ -191,6 +202,9 @@ export const skillCategories: SkillCategory[] = [
       { name: "Jupyter Notebook", level: 100 },
       { name: "Git", level: 95 },
       { name: "VS Code", level: 100 },
+      { name: "Wireshark", level: 75 },
+      { name: "Nmap", level: 70 },
+      { name: "Kali Linux", level: 65 },
       { name: "Agile", level: 60 },
     ],
   },
